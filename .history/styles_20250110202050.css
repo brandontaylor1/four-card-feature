@@ -159,6 +159,10 @@
         font-weight: 300;
     }
 
+    .card {
+        width: 311px;
+    }
+
     .column-container {
         grid-template-columns: 1fr;
     }

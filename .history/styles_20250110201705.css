@@ -112,19 +112,20 @@
 }
 
 #green-card {
-    border-top: 4px solid var(--primary-cyan);
+    border-top: 5px solid var(--primary-cyan);
+
 }
 
 #red-card {
-    border-top: 4px solid var(--primary-red);
+    background: var(--primary-red);
 }
 
 #orange-card {
-    border-top: 4px solid var(--primary-orange);
+    background: var(--primary-orange);
 }   
 
 #blue-card {
-    border-top: 4px solid var(--primary-blue);
+    background: var(--primary-blue);
 }
 
 
@@ -157,6 +158,10 @@
         font-size: 1rem;
         line-height: 25px;
         font-weight: 300;
+    }
+
+    .card {
+        width: 311px;
     }
 
     .column-container {

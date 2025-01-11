@@ -127,6 +127,19 @@
     border-top: 4px solid var(--primary-blue);
 }
 
+@media (max-width: 400px) {
+    .container {
+        height: auto;
+        padding: 2rem;
+    }
+
+    .column-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+}
+
 
 @media (max-width: 1110px) {
     .container {
@@ -158,6 +171,10 @@
         line-height: 25px;
         font-weight: 300;
     }
+
+    /* .card {
+        width: 311px;
+    } */
 
     .column-container {
         grid-template-columns: 1fr;
